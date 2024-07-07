@@ -1,12 +1,5 @@
 #Author : Shraddha Mane 
 #Program language : python
-
-import pyttsx3
-import datetime
-import speech_recognition as sr 
-import wikipedia
-import webbrowser
-import os           #for playing music
 '''
 before running the program install the below packages...
 
@@ -14,8 +7,15 @@ pip install wikipedia
 pip install pyttsx3
 pip intall pypwin32
 pip install speechRecognition
-
 '''
+
+import pyttsx3
+import datetime
+import speech_recognition as sr 
+import wikipedia
+import webbrowser
+import os           #for playing music
+
 engine= pyttsx3.init('sapi5')    #for taking voice
 voices=engine.getProperty('voices')
 # print(voices[0].id)
